@@ -8,7 +8,7 @@
         <result property="password" column="password" />
         <collection property="roles" ofType="com.redis.redistest.user.entity.Role">
             <id property="rid" column="rid" />
-            <result property="name" column="name" />
+            <result property="rname" column="rname" />
             <collection property="permissions" ofType="com.redis.redistest.user.entity.Permission">
                 <id property="pid" column="pid" />
                 <result property="name" column="name"/>

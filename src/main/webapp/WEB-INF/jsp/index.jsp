@@ -1,9 +1,9 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
-    <title>123</title>
+    <title>Home</title>
 </head>
         <body>
-            开心2234
+            <h1>欢迎回来，${user.username}</h1>
         </body>
 </html>
